@@ -17,7 +17,28 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_userid_2" />
-        <activity android:name=".activity_mh9635"></activity>
+        <activity android:name=".activity_mh9635" />
+        <activity android:name=".activity3" />
+        <activity android:name=".activity4" />
+        <activity android:name=".activity5" />
+        <activity android:name=".activity7" />
+        <activity android:name=".activity8" />
+        <activity android:name=".activity9" />
+        <activity android:name=".activity10" />
+        <activity
+            android:name=".activity11"
+            android:label="@string/title_activity_activity11" />
+        <activity android:name=".activity12" />
+        <activity android:name=".activity13" />
+        <activity android:name=".activity14" />
+        <activity android:name=".activity15" />
+        <activity android:name=".activity16" />
+        <activity android:name=".activity17" />
+        <activity android:name=".activity18" />
+        <activity android:name=".activity19" />
+        <activity android:name=".activity20" />
+        <activity android:name=".activity21" />
+        <activity android:name=".activity22"></activity>
     </application>
 
 </manifest>
