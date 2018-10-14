@@ -69,7 +69,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="22dp"
-        android:text="Contact"
+        android:text="Contact Devs"
         app:layout_constraintBottom_toTopOf="@+id/button16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button14" />
