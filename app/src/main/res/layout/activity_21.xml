@@ -11,79 +11,108 @@
         android:id="@+id/button52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Client"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="427dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button53"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button53"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="28dp"
         android:text="Reviews"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="491dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="User"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="427dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button55"
+        app:layout_constraintStart_toStartOf="@+id/button55" />
 
     <Button
         android:id="@+id/button55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="28dp"
         android:text="Settings"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="491dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
         android:text="Disable Push Notification"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button65"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
         android:text="Enable Night Mode"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="99dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button51" />
 
     <Button
         android:id="@+id/button66"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
         android:text="Business Agreement"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button67"
+        app:layout_constraintEnd_toEndOf="@+id/button67"
+        app:layout_constraintStart_toEndOf="@+id/button67" />
 
     <Button
         android:id="@+id/button67"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginBottom="246dp"
         android:text="Log Out"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/button53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button68"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="22dp"
         android:text="Delete Account"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintStart_toEndOf="@+id/button69"
+        app:layout_constraintTop_toBottomOf="@+id/button66" />
 
     <Button
         android:id="@+id/button69"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
         android:text="Contact Devs"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="325dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button67" />
 </android.support.constraint.ConstraintLayout>
